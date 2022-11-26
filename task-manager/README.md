@@ -1,4 +1,4 @@
-# Kolboinik
+# Kolboinik - Task Manager
 
 ## Run the app
 
