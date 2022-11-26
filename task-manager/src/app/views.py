@@ -29,9 +29,6 @@ def error_reply(message:str, request_id:str, http_status_code:int=400) -> jsonif
         request_id=request_id,
         message=message
     ), http_status_code
-
-def load_config():
-    global service_config
     
 
 @app.route('/job_config', methods=['GET', 'POST'])
@@ -68,8 +65,3 @@ def job_config():
             message=data
         )
     return error_reply(message="No change made, this endpoint accepts POST messages only")
-
-if __name__ == "__main__":
-    logger.info('Starting app')
-    load_config()
-    app.run()
