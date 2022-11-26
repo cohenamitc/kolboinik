@@ -1,1 +1,1 @@
-from secret_loader.secret_loader import SecretLoader
+from .secret_loader import SecretLoader

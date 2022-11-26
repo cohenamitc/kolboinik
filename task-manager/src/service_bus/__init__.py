@@ -1,1 +1,1 @@
-from service_bus.service_bus import KolboinikServiceBus
+from .service_bus import KolboinikServiceBus

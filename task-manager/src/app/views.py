@@ -5,8 +5,9 @@ import json
 import pathlib
 
 from flask import jsonify, request
-from app import app
 import yaml
+
+from . import app
 
 from secret_loader import SecretLoader
 from service_bus import KolboinikServiceBus
