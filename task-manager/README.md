@@ -6,6 +6,7 @@ An API endpoint to receive task configurations and put them in queue
 Task configuration can be either YAML or JSON formatted
 
 - API endpoint for submitting task configurations `POST /job_config`
+- `Content-Type: application/json` / `Content-Type: application/yaml`
 
 ### YAML
 
